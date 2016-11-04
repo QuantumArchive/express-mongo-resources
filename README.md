@@ -2,7 +2,7 @@
 
 -I promise the mongoose will work expressly!
 
-This is a RESTful API on nodeJS that delivers content from MongoDB. The API routes to 2 endpoints and a Pug page. *Now with *MORE* database statistical analysis.  _Please see the associated sections for suggested reconfiguration instructions_.
+This is a RESTful API on nodeJS that delivers content from MongoDB. The API routes to 2 endpoints and a Pug page. Now with *MORE* database statistical analysis.
 
 
 ### Authors
@@ -20,7 +20,7 @@ The defaults is designed to catch Heroku env variable MONGODB_URI but you may ne
 
 _/lib/setup-mongoose.js line 4:_
 ``` Javascript
-const dbURI = process.env.MONGODB_URI || 'mongodb://USER:USERPASS@ds141937.mlab.com:41937/gamechars' || 'mongodb://localhost/gamechars'; pizza
+const dbURI = process.env.MONGODB_URI || 'mongodb://USER:USERPASS@ds141937.mlab.com:41937/gamechars';
 ```
 
 
